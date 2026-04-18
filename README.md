@@ -76,7 +76,7 @@ npm install
 npm run dev
 ```
 
-🔗 How It Works
+How It Works
 User opens the website
 Chatbot appears for support
 User asks a question
@@ -101,8 +101,6 @@ GitHub: https://github.com/Nilesh-singh91
 
 This project is licensed under the MIT License.
 
-
----
 
 ### ✅ This version fixes your problems:
 - Proper formatting (no one-line issue)  
