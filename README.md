@@ -21,11 +21,23 @@ Styling: Tailwind CSS (if used)
 Other Tools: ESLint, PostCSS
 📂 Project Structure
 Support-AI-Chatbot/
-│── public/        # Static assets
-│── src/           # Main source code
-│── README.md      # Project documentation
-│── package.json   # Dependencies
-│── next.config.ts # Next.js config
+│
+├── public/               # Static assets (images, icons, etc.)
+├── src/                  # Main application source code
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Next.js pages / routes
+│   ├── styles/           # CSS / Tailwind styles
+│   ├── utils/            # Helper functions
+│   └── api/              # Backend / API logic
+│
+├── .gitignore            # Ignored files
+├── README.md             # Project documentation
+├── package.json          # Project dependencies
+├── package-lock.json     # Dependency lock file
+├── tsconfig.json         # TypeScript configuration
+├── next.config.ts        # Next.js configuration
+├── postcss.config.mjs    # PostCSS config
+└── eslint.config.mjs     # ESLint configuration
 ⚙️ Installation & Setup
 
 Follow these steps to run the project locally:
